@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGoogle} from "@fortawesome/free-brands-svg-icons";
 
 class Footer extends Component {
   render() {
 
     if(this.props.data){
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+          if (network.className =="scholar"){
+              return <li key={network.name}><a href={network.url} target="_blank"><FontAwesomeIcon
+                  icon={faGoogle}/></a></li>
+          }
+          else{
+              return   <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
+          }
       })
     }
 
@@ -18,10 +26,10 @@ class Footer extends Component {
               {networks}
            </ul>
 
-           <ul className="copyright">
-              <li>&copy; Copyright 2017 Tim Baker</li>
-              <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-           </ul>
+           {/*<ul className="copyright">*/}
+           {/*   <li>&copy; Copyright 2017 Tim Baker</li>*/}
+           {/*   <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>*/}
+           {/*</ul>*/}
 
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>

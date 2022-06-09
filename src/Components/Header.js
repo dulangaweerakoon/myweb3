@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGoogle} from "@fortawesome/free-brands-svg-icons";
+// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+// import {solid} from "@fortawesome/fontawesome-svg-core/import.macro";
 
 class Header extends Component {
   render() {
@@ -9,7 +13,14 @@ class Header extends Component {
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+        // return   <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
+          if (network.className =="scholar"){
+              return <li key={network.name}><a href={network.url} target="_blank"><FontAwesomeIcon
+                  icon={faGoogle}/></a></li>
+          }
+          else{
+              return   <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
+          }
       })
     }
 
@@ -25,8 +36,8 @@ class Header extends Component {
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Research</a></li>
+            {/*<li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>*/}
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 
@@ -35,7 +46,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h3>I'm a third-year <span> PhD student in Computer Science </span> at <span>School of Computing and Information Systems, Singapore Managment University.</span></h3>.
             <hr />
             <ul className="social">
                {networks}

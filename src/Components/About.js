@@ -8,6 +8,9 @@ class About extends Component {
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
+      var street2 = this.props.data.address.street2;
+      var street3 = this.props.data.address.street3;
+      var street4 = this.props.data.address.street4;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
@@ -25,14 +28,25 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+             <p>I am <b>third-year PhD student in Computer Science</b>, advised by <b>Prof. Archan Misra</b>, at <b>School of Computing and Information Systems</b> of <b>Singapore Management University</b>.
+             </p>
+             <p>
+                 My current research interests primarily includes, <b> Multi-modal sesning for Human-AI Collaboration on pervasive devices with low energy, latency and computational requirements.</b>
+             </p>
+
+             <p>
+                 Prior to my PhD studies, I completed my <b>Bachelors in Electronics and Telecommunication Engineering</b> from <b>University of Moratuwa, Sri Lanka</b>. Then, I worked at <b>Singapore Management University</b> as a <b>Research Engineer</b>, advised by <b>Prof. Archan Misra</b> for a year.
+             </p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{street}<br />
-						         {city} {state}, {zip}
+                               {street2}
+                               {street3}
+                               {street4}
+						         {city}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
                      <span>{email}</span>
