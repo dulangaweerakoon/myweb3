@@ -33,7 +33,8 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+    background: #444444;
+   /*background: #161415 url(../images/header-background.jpg) no-repeat top center;*/
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -54,6 +55,13 @@ header .banner {
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
+}
+
+header .profile-pic {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
 }
 
 header .banner-text { width: 100%; }

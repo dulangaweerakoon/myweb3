@@ -10,6 +10,7 @@ class Header extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
+      var profilepic= "images/"+this.props.data.image;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
@@ -45,8 +46,10 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a third-year <span> PhD student in Computer Science </span> at <span>School of Computing and Information Systems, Singapore Managment University.</span></h3>.
+                 <img className="profile-pic"  src={profilepic} alt="Dulanga Weerakoon Profile Pic" width="100" />
+
+            <h1 className="responsive-headline">{name}.</h1>
+            <h3><span> I'm a third-year  PhD student in Computer Science at School of Computing and Information Systems, Singapore Managment University.</span></h3>.
             <hr />
             <ul className="social">
                {networks}

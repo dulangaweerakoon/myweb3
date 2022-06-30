@@ -18,7 +18,8 @@
       "zip": "178902"
     },
     "website": "dulangaweerakoon.com",
-    "resumedownload": "https://drive.google.com/file/d/1tS3NF0kWLU4L9ZGPUqUjLYbhPAklIFhy/view?usp=sharing",
+    "resumedownload": "images/cv.pdf",
+    "resumedownload1": "https://drive.google.com/file/d/1tS3NF0kWLU4L9ZGPUqUjLYbhPAklIFhy/view?usp=sharing",
     "social": [
       {
         "name": "Google Scholar",
@@ -132,7 +133,7 @@
         "title": "M2Gestic",
         "category": "Gesture enhanced comprehension of ambiguous human-to-robot\ninstructions ",
         "image": "m2gestic.png",
-        "url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6373&context=sis_research"
+        "url": "https://dl.acm.org/doi/10.1145/3382507.3418863"
       }
     ]
   },
