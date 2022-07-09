@@ -54,10 +54,11 @@ class News extends Component {
 				<div className="bars">
 				   <ul className="news">
                        <div>
+                           <p><b>[July 2022]</b> Our IROS Paper titled, "COSM2IC: Optimizing Real-time Multi-Modal Instruction Comprehension" was accepted to be a journal at <b>IEEE Robotics and Automation Letters (RA-L)</b></p>
                            <p><b>[June 2022]</b> Our Paper titled, "SoftSkip: Empowering Multi-Modal Dynamic Pruning for Single-Stage Referring Comprehension" was accepted to <b>ACM Multimedia 2022</b> </p>
                            <p><b>[June 2022]</b> Our Paper titled, "COSM2IC: Optimizing Real-time Multi-Modal Instruction Comprehension" was accepted to <b>IROS 2022</b></p>
-                           <p><b>[Sept 2020]</b> Our Paper titled, "Gesture enhanced comprehension of ambiguous human-to-robot instructions" was accepted to <b>ICMI 2020</b></p>
-                           <p><b>[Sept 2020]</b> Our Paper titled, "Five Challenges in Cloud-Enabled Intelligence and Control" was accepted to <b>ACM Trans. on Internet Technology</b></p>
+                           {/*<p><b>[Sept 2020]</b> Our Paper titled, "Gesture enhanced comprehension of ambiguous human-to-robot instructions" was accepted to <b>ICMI 2020</b></p>*/}
+                           {/*<p><b>[Sept 2020]</b> Our Paper titled, "Five Challenges in Cloud-Enabled Intelligence and Control" was accepted to <b>ACM Trans. on Internet Technology</b></p>*/}
                        </div>
 					</ul>
 				</div>
