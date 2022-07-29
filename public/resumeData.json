@@ -133,8 +133,23 @@
         "title": "M2Gestic",
         "category": "Gesture enhanced comprehension of ambiguous human-to-robot\ninstructions ",
         "image": "m2gestic.png",
-        "url": "https://dl.acm.org/doi/10.1145/3382507.3418863"
+        "url": "images/portfolio/m2gestic.mp4"
+      },
+      {
+        "title": "COSM2IC",
+        "category": "COSM2IC: Optimizing Real-time Multi-Modal\nInstruction Comprehension ",
+        "image": "iros.jpg",
+        "url": "images/portfolio/iros_final.pdf"
+      },
+
+      {
+        "title": "SoftSkip",
+        "category": "SoftSkip: Empowering Multi-Modal Dynamic Pruning for Single-Stage Referring Comprehension",
+        "image": "softskip.png",
+        "url": "images/portfolio/multimedia_final.pdf"
       }
+
+
     ]
   },
   "testimonials": {

@@ -31,27 +31,27 @@ class About extends Component {
              <p>I am <b>third-year PhD student in Computer Science</b>, advised by <b>Prof. Archan Misra</b>, at <b>School of Computing and Information Systems</b> of <b>Singapore Management University</b>.
              </p>
              <p>
-                 My current research interests primarily includes, <b> Multi-modal sesning for Human-AI Collaboration on pervasive devices with low energy, latency and computational requirements.</b>
+                 My current research interests primarily includes, <b> Multi-modal sensing for Human-AI Collaboration on pervasive devices with low energy, latency and computational requirements.</b>
              </p>
 
              <p>
                  Prior to my PhD studies, I completed my <b>Bachelors in Electronics and Telecommunication Engineering</b> from <b>University of Moratuwa, Sri Lanka</b>. Then, I worked at <b>Singapore Management University</b> as a <b>Research Engineer</b>, advised by <b>Prof. Archan Misra</b> for a year.
              </p>
             <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-                               {street2}
-                               {street3}
-                               {street4}
-						         {city}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
-               </div>
+               {/*<div className="columns contact-details">*/}
+               {/*   <h2>Contact Details</h2>*/}
+               {/*   <p className="address">*/}
+				{/*		   <span>{name}</span><br />*/}
+				{/*		   <span>{street}<br />*/}
+               {/*                {street2}*/}
+               {/*                {street3}*/}
+               {/*                {street4}*/}
+				{/*		         {city}, {zip}*/}
+               {/*    </span><br />*/}
+				{/*		   <span>{phone}</span><br />*/}
+               {/*      <span>{email}</span>*/}
+				{/*	   </p>*/}
+               {/*</div>*/}
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} target="_blank" className="button" ><i className="fa fa-download"></i>Download Resume</a>
