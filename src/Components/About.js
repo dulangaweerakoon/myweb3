@@ -28,7 +28,7 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-             <p>I am <b>third-year PhD student in Computer Science</b>, advised by <b>Prof. Archan Misra</b>, at <b>School of Computing and Information Systems</b> of <b>Singapore Management University</b>.
+             <p>I am <b>fourth-year PhD student in Computer Science</b>, advised by <b>Prof. Archan Misra</b>, at <b>School of Computing and Information Systems</b> of <b>Singapore Management University</b>.
              </p>
              <p>
                  My current research interests primarily includes, <b> Multi-modal sensing for Human-AI Collaboration on pervasive devices with low energy, latency and computational requirements.</b>

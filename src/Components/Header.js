@@ -50,7 +50,7 @@ class Header extends Component {
                  <img className="profile-pic"  src={profilepic} alt="Dulanga Weerakoon Profile Pic" width="100" />
 
             <h1 className="responsive-headline">{name}.</h1>
-            <h3><span> I'm a third-year  PhD student in Computer Science at School of Computing and Information Systems, Singapore Managment University.</span></h3>.
+            <h3><span> I'm a fourth-year  PhD student in Computer Science at School of Computing and Information Systems, Singapore Managment University.</span></h3>.
             <hr />
             <ul className="social">
                {networks}
