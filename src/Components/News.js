@@ -54,7 +54,8 @@ class News extends Component {
 				<div className="bars">
 				   <ul className="news">
                        <div>
-	    		   <p><b>[December 2022]</b> Our Paper titled, "Demonstrating Multi-modal Human Instruction Comprehension with AR Smart Glass" was accepted as a demo paper at <b>COMSNETS 2023</b></p>
+                           <p><b>[January 2022]</b> I was offered a PhD Research Attachment at Institute of High Performance Computing (IHPC), A*STAR, Singapore</p>
+	    		                 <p><b>[December 2022]</b> Our Paper titled, "Demonstrating Multi-modal Human Instruction Comprehension with AR Smart Glass" was accepted as a demo paper at <b>COMSNETS 2023</b></p>
                            <p><b>[July 2022]</b> Our IROS Paper titled, "COSM2IC: Optimizing Real-time Multi-Modal Instruction Comprehension" was accepted to be a journal at <b>IEEE Robotics and Automation Letters (RA-L)</b></p>
                            <p><b>[June 2022]</b> Our Paper titled, "SoftSkip: Empowering Multi-Modal Dynamic Pruning for Single-Stage Referring Comprehension" was accepted to <b>ACM Multimedia 2022</b> </p>
                            <p><b>[June 2022]</b> Our Paper titled, "COSM2IC: Optimizing Real-time Multi-Modal Instruction Comprehension" was accepted to <b>IROS 2022</b></p>
